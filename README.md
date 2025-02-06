@@ -1,2 +1,2 @@
-# not-so-simple
-A site for Simple Alternatives
+# not-so-simple-llc
+A software consulting website
