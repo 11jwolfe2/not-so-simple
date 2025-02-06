@@ -51,7 +51,14 @@ export default function Home() {
                 >
                   Get Started
                 </Button>
-                <Button size="lg" variant="outline">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  onClick={(e) => {
+                    e.preventDefault()
+                    document.querySelector("#work")?.scrollIntoView({ behavior: "smooth" })
+                  }}
+                >
                   View Projects
                 </Button>
               </div>
